@@ -1,0 +1,78 @@
+body{
+  background-color: #9006;
+}
+img {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 75%;
+    }
+.wrapper{
+  padding: 70px 0;
+}
+#wrapper1{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* Default slide */
+.center-slider .slick-slide{
+  background-color: #b32532;
+  color: #FFF;
+  height: 200px;
+  margin: 0 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+}
+.center-slider .slick-slide,
+.center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.8, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+
+/* Active center slide (You can change anything here for cenetr slide)*/
+.center-slider .slick-center,
+.center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
+  transform: scale(1.1);
+  background-color: #000000;
+}
+.center-slider .slick-current.slick-active{
+  transform: scale(1.1);
+  background-color: #000000;
+}
+
+.slick-next, .slick-prev{
+  z-index: 5;
+}
+.slick-next{
+  right: 15px;
+}
+.slick-prev{
+  left: 15px;
+}
+.slick-next:before, .slick-prev:before{
+  color: #000;
+  font-size: 26px;
+}
+
+
+ 
+
+.little-description{
+  font-size: 1.5rem;
+  width: 50%;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 26%;
+  line-height: 2.5rem;
+  color: #d6d4dd;
+  }
+
+.b12{
+  text-align: center;
+}
